@@ -1,0 +1,141 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1dae71f195bbb72f6db0b58a18690df7",
+    "content-hash": "174e15dea009cb2b51e3cceb792af83a",
+    "packages": [
+        {
+            "name": "phalcon/devtools",
+            "version": "v2.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/phalcon-devtools.git",
+                "reference": "54bc21bb262ad40b4a07ff148691a895279eeac0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phalcon/phalcon-devtools/zipball/54bc21bb262ad40b4a07ff148691a895279eeac0",
+                "reference": "54bc21bb262ad40b4a07ff148691a895279eeac0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phalcon": "~2.0",
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "kherge/box": "^2.5"
+            },
+            "bin": [
+                "phalcon.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Phalcon\\": "scripts/Phalcon/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalconphp.com"
+                }
+            ],
+            "description": "This tools provide you useful scripts to generate code helping to develop faster and easy applications that use with Phalcon framework.",
+            "homepage": "http://phalconphp.com",
+            "keywords": [
+                "Devtools",
+                "framework",
+                "phalcon",
+                "phar",
+                "webtools"
+            ],
+            "time": "2016-02-05 07:08:56"
+        },
+        {
+            "name": "symfony/console",
+            "version": "2.5.x-dev",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "a43e750b4c74f3bdfca77c79c343033d35a6cd6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/a43e750b4c74f3bdfca77c79c343033d35a6cd6e",
+                "reference": "a43e750b4c74f3bdfca77c79c343033d35a6cd6e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-02-08 07:07:45"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "symfony/console": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0",
+        "ext-memcache": "*",
+        "ext-curl": "*",
+        "ext-pdo": "*",
+        "ext-mysql": "*",
+        "ext-phalcon": "*",
+        "ext-intl": "*",
+        "ext-mcrypt": "*"
+    },
+    "platform-dev": []
+}

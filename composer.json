@@ -1,0 +1,17 @@
+{
+    "name": "advert",
+    "description": "Приложение показа обявлений",
+    "license": "proprietary",
+    "require": {
+        "php": ">=5.6.0",
+        "ext-memcache": "*",
+        "ext-curl": "*",
+        "ext-pdo": "*",
+        "ext-mysql": "*",
+        "ext-phalcon": "*",
+        "ext-intl": "*",
+        "ext-mcrypt": "*",
+        "phalcon/devtools": "2.0.10",
+        "symfony/console": "2.5.x-dev"
+    }
+}
